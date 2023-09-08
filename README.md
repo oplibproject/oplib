@@ -49,7 +49,7 @@ Docker: Download Docker
 Setup Instructions
 Prerequisites
 AWS Account: To manage cloud resources.
-Sign Up for AWS
+Sign Up for AWS https://aws.amazon.com/
 
 ------
 
@@ -59,32 +59,60 @@ Architecture & In-depth Explanation
 The architecture of the search engine is designed to provide a scalable, efficient, and reliable search service. Here's how the components interact:
 
 AWS EC2 Instances
+
 Role: To host the web crawlers, Kafka, and Elasticsearch instances.
 Internal Working: Multiple EC2 instances can be grouped into clusters for scalability. Load balancers distribute incoming data and queries among them.
-AWS EC2 Documentation
+
+AWS EC2 Documentation https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
+
 AWS Lambda
+
 Role: Handles user queries and sends them to Elasticsearch.
 Internal Working: Triggered by an API Gateway, it parses user queries, possibly expands or refines them using AI algorithms, and passes them to Elasticsearch.
-AWS Lambda Guide
+
+AWS Lambda Guide https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html
+
+-----------
+
 Scrapy Web Crawlers
+
 Role: To scrape web data.
 Internal Working: Crawlers hosted on EC2 instances visit a predefined list of websites and extract relevant information, sending this data to Kafka for real-time processing.
-Scrapy Installation
+
+Scrapy Installation https://docs.scrapy.org/en/latest/intro/install.html
+
+----------
+
 Apache Kafka
+
 Role: Real-time data ingestion.
 Internal Working: As data is fetched by crawlers, Kafka queues it for consumption by Elasticsearch. It acts as a reliable, fault-tolerant buffer.
-Kafka Quick Start Guide
-Elasticsearch
-Role: Data indexing and retrieval.
-Internal Working: Stores the data received from Kafka. When a query is received from Lambda, it executes the search and returns the results.
-Elasticsearch Configuration Guide
-AI Tools (GloVe & BERT)
-Role: Enhance query processing and search ranking.
-Internal Working: GloVe models are used to understand the semantic meaning behind queries, and BERT models understand the context. These models are integrated into Lambda and Elasticsearch.
-GloVe GitHub
-BERT GitHub
 
----
+Kafka Quick Start Guide https://kafka.apache.org/quickstart
+
+-----------
+
+Elasticsearch
+
+Role: Data indexing and retrieval.
+
+Internal Working: Stores the data received from Kafka. When a query is received from Lambda, it executes the search and returns the results.
+
+Elasticsearch Configuration Guide https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html
+
+-----------
+
+AI Tools (GloVe & BERT)
+
+Role: Enhance query processing and search ranking.
+
+Internal Working: GloVe models are used to understand the semantic meaning behind queries, and BERT models understand the context. These models are integrated into Lambda and Elasticsearch.
+
+GloVe GitHub https://github.com/stanfordnlp/GloVe
+
+BERT GitHub https://github.com/google-research/bert
+
+--------------------------------------------------------
 
 ## Detailed Implementation Steps
 
