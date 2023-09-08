@@ -1,3 +1,5 @@
 pip install elasticsearch
 pip install transformers  # For BERT
 pip install lightgbm  # For LightGBM
+pip install beautifulsoup4
+pip install elasticsearch
