@@ -4,7 +4,11 @@ Open Source AI search engine that serves as a one-stop-shop for all things open 
 
 This project aims to develop a centralized, AI-enhanced search engine optimized for indexing open-source materials—including code, educational tools, and research papers. Utilizing scalable, cloud-based architecture and advanced ranking algorithms, the platform will serve as a one-stop-shop for creators, scholars, developers, etc. The goal is to provide seamless access to fragmented open-source repositories and libraries, filling a critical gap in the current digital landscape.
 
+
+
+
 # Oplib Open Source AI Search Engine Project Wiki
+
 
 ## Table of Contents
 
@@ -16,14 +20,16 @@ This project aims to develop a centralized, AI-enhanced search engine optimized 
 6. [Development Process](#development-process)
 7. [Additional Resources](#additional-resources)
 
----
 
 ## Project Overview
+
 
 ### Objective
 
 The primary goal is to build a search engine focused on providing accurate and swift results for open-source materials and resources. The technical objective is to design, build, and launch an open-source, cloud-native, AI-powered search engine focused on indexing open-source resources. Leveraging AWS for scalable infrastructure, the platform will predominantly utilize open-source technologies, including Elasticsearch for real-time search and Apache Kafka for data ingestion and stream processing. Advanced open-source AI models like BERT for natural language understanding and LightGBM for machine learning will be employed to optimize query parsing and result ranking. The final product itself will be open-sourced, serving as both a tool and a community project to offer a unified, efficient access point to a wide range of open-source materials. This aims to fill a critical gap in the digital ecosystem, benefiting users such as scholars, developers, and creators.
----
+
+
+
 
 ## Development Environment
 
@@ -36,12 +42,13 @@ To get started, ensure you have the following software installed:
 
 ## Setup Instructions
 
+
 ### Prerequisites
 
 1. **AWS Account**: For managing the cloud resources. 
     - [Sign Up for AWS](https://aws.amazon.com/)
 
----
+
 
 Development Environment
 To build this project, the following tools should be in your toolkit:
@@ -53,7 +60,7 @@ Prerequisites
 AWS Account: To manage cloud resources.
 Sign Up for AWS https://aws.amazon.com/
 
-------
+
 
 
 ### Architecture & In-depth Explanation
@@ -125,6 +132,8 @@ BERT GitHub https://github.com/google-research/bert
 2. Navigate to the EC2 dashboard and create a new EC2 instance.
 3. Install necessary software such as Docker, Git, etc.
     - [AWS EC2 Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+  
+   
 
 ### Step 2: Deploy Web Crawlers using Scrapy
 
@@ -141,6 +150,7 @@ Role: Scrape web data.
 2. Configure brokers and start producing messages from your web crawlers.
 3. Use Kafka consumers to read these messages.
     - [Kafka Quick Start Guide](https://kafka.apache.org/quickstart)
+  
 
 ### Step 4: AWS Lambda for Query Processing
 
@@ -178,6 +188,8 @@ LightGBM GitHub
 1. Adapt the BERT model for search ranking.
 2. Integrate this model into the Elasticsearch ranking algorithm.
     - [BERT for Search Ranking](https://github.com/google-research/bert)
+
+
 
 ---
 
