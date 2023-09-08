@@ -1,7 +1,10 @@
 # oplib
-create a search engine that serves as a one-stop-shop for all things open source.
 
-# AI-Enhanced Open Source Search Engine Project Wiki
+Open Source AI search engine that serves as a one-stop-shop for all things open source.
+
+This project aims to develop a centralized, AI-enhanced search engine optimized for indexing open-source materials—including code, educational tools, and research papers. Utilizing scalable, cloud-based architecture and advanced ranking algorithms, the platform will serve as a one-stop-shop for creators, scholars, developers, etc. The goal is to provide seamless access to fragmented open-source repositories and libraries, filling a critical gap in the current digital landscape.
+
+# Oplib Open Source AI Search Engine Project Wiki
 
 ## Table of Contents
 
@@ -19,8 +22,7 @@ create a search engine that serves as a one-stop-shop for all things open source
 
 ### Objective
 
-The primary goal is to build a search engine focused on providing accurate and swift results for open-source materials and resources.
-
+The primary goal is to build a search engine focused on providing accurate and swift results for open-source materials and resources. The technical objective is to design, build, and launch an open-source, cloud-native, AI-powered search engine focused on indexing open-source resources. Leveraging AWS for scalable infrastructure, the platform will predominantly utilize open-source technologies, including Elasticsearch for real-time search and Apache Kafka for data ingestion and stream processing. Advanced open-source AI models like BERT for natural language understanding and LightGBM for machine learning will be employed to optimize query parsing and result ranking. The final product itself will be open-sourced, serving as both a tool and a community project to offer a unified, efficient access point to a wide range of open-source materials. This aims to fill a critical gap in the digital ecosystem, benefiting users such as scholars, developers, and creators.
 ---
 
 ## Development Environment
