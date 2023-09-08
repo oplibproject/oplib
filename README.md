@@ -54,7 +54,7 @@ Sign Up for AWS https://aws.amazon.com/
 ------
 
 
-Architecture & In-depth Explanation
+### Architecture & In-depth Explanation
 
 The architecture of the search engine is designed to provide a scalable, efficient, and reliable search service. Here's how the components interact:
 
