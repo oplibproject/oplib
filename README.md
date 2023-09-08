@@ -118,12 +118,15 @@ BERT GitHub https://github.com/google-research/bert
 
 ### Step 1: Initialize AWS EC2 Instances
 
+
 1. Sign in to your AWS Console.
 2. Navigate to the EC2 dashboard and create a new EC2 instance.
 3. Install necessary software such as Docker, Git, etc.
     - [AWS EC2 Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 
 ### Step 2: Deploy Web Crawlers using Scrapy
+
+Role: Scrape web data.
 
 1. Clone Scrapy repository from GitHub.
 2. Customize your crawlers based on the sites you want to scrape.
@@ -146,6 +149,8 @@ BERT GitHub https://github.com/google-research/bert
 
 ### Step 5: Elasticsearch for Data Indexing
 
+Role: Data indexing and retrieval.
+
 1. Install Elasticsearch on an AWS EC2 instance.
 2. Index the crawled data.
 3. Test search queries.
@@ -160,6 +165,13 @@ BERT GitHub https://github.com/google-research/bert
     - [BERT GitHub](https://github.com/google-research/bert)
 
 ### Step 7: AI-Enhanced Ranking
+
+Role: Enhance query processing and search ranking.
+
+Operation: GloVe and BERT refine query understanding while LightGBM assists with ranking search results.
+GloVe GitHub
+BERT GitHub
+LightGBM GitHub
 
 1. Adapt the BERT model for search ranking.
 2. Integrate this model into the Elasticsearch ranking algorithm.
@@ -193,6 +205,9 @@ BERT GitHub https://github.com/google-research/bert
 
 - Deploy on AWS
 - Monitor and optimize performance
+
+### phase 6: Maintainence
+- Regular updates and improvements based on user feedback.
 
 ---
 
