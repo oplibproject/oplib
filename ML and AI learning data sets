@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dataset Links for AI/ML Training</title>
+</head>
+<body>
+    <h1>Comprehensive Dataset URLs for AI and ML Training</h1>
+
+    <h2>General Repositories</h2>
+    <ul>
+        <li><a href="https://www.kaggle.com/datasets" target="_blank">Kaggle Datasets</a></li>
+        <li><a href="https://archive.ics.uci.edu/ml/index.php" target="_blank">UCI ML Repository</a></li>
+        <li><a href="https://registry.opendata.aws/" target="_blank">AWS Open Data</a></li>
+        <li><a href="https://www.data.gov/" target="_blank">Data.gov</a></li>
+        <li><a href="https://datasetsearch.research.google.com/" target="_blank">Google Dataset Search</a></li>
+        <li><a href="https://www.zenodo.org/" target="_blank">Zenodo</a></li>
+    </ul>
+
+    <h2>Text Data for NLP</h2>
+    <ul>
+        <li><a href="https://commoncrawl.org/" target="_blank">Common Crawl</a></li>
+        <li><a href="https://rajpurkar.github.io/SQuAD-explorer/" target="_blank">SQuAD</a></li>
+        <li><a href="https://www.gutenberg.org/" target="_blank">Project Gutenberg</a></li>
+        <li><a href="https://www.re3data.org/" target="_blank">Re3data</a></li>
+        <li><a href="https://www.kaggle.com/datasets?search=nlp" target="_blank">Kaggle NLP Datasets</a></li>
+        <li><a href="https://www.tensorflow.org/datasets/catalog/overview#text" target="_blank">TensorFlow Text Datasets</a></li>
+        <li><a href="https://registry.opendata.aws/?search=nlp" target="_blank">AWS NLP Datasets</a></li>
+        <li><a href="https://github.com/niderhoff/nlp-datasets" target="_blank">NLP Datasets GitHub Repo</a></li>
+        <li><a href="https://github.com/RossiyaSegodnya/ria_news_dataset" target="_blank">RIA News Dataset</a></li>
+    <li><a href="https://datasetsearch.research.google.com/search?query=nlp" target="_blank">Google Dataset Search - NLP</a></li>
+    <li><a href="https://commoncrawl.org/" target="_blank">Common Crawl</a></li>
+    <li><a href="https://webhose.io/" target="_blank">Webhose.io</a></li>
+    <li><a href="https://www.ukparliamentresearchcollections.uk/" target="_blank">UK Parliament Speeches</a></li>
+    <li><a href="https://www.nlm.nih.gov/databases/download/pubmed_medline.html" target="_blank">PubMed Texts</a></li>
+    <li><a href="https://github.com/Franck-Dernoncourt/pubmed-rct" target="_blank">PubMed 200k RCT</a></li>
+    <li><a href="https://github.com/yoonkim/CNN_sentence" target="_blank">CNN Sentences</a></li>
+    <li><a href="https://www.cs.cmu.edu/~ark/QA-data/" target="_blank">CMU Question Answering Data</a></li>
+    <li><a href="https://www.cs.york.ac.uk/semeval-2010/task8/" target="_blank">SemEval 2010 Task 8</a></li>
+    <li><a href="https://www.ldc.upenn.edu/" target="_blank">Linguistic Data Consortium</a></li>
+    <li><a href="https://github.com/facebookresearch/ParlAI/tree/master/parlai/tasks" target="_blank">ParlAI Datasets</a></li>
+    <li><a href="https://trec.nist.gov/data.html" target="_blank">TREC Datasets</a></li>
+    <li><a href="https://catalog.ldc.upenn.edu/LDC2011T07" target="_blank">Ontonotes 5.0</a></li>
+    <li><a href="https://github.com/mozilla/voice-web" target="_blank">Mozilla Common Voice</a></li>
+    <li><a href="https://github.com/snipsco/nlu-benchmark" target="_blank">Snips NLU Benchmark</a></li>
+    <li><a href="https://www.aclweb.org/anthology/" target="_blank">ACL Anthology</a></li>
+    <li><a href="https://github.com/allenai/scifact" target="_blank">SciFact</a></li>
+    <li><a href="https://mimic.physionet.org/" target="_blank">MIMIC-CXR</a></li>
+    <li><a href="https://github.com/roemmele/ROCStories" target="_blank">ROCStories</a></li>
+    <li><a href="https://github.com/microsoft/CodeXGLUE" target="_blank">CodeXGLUE</a></li>
+    <li><a href="https://nlp.stanford.edu/projects/gqa/" target="_blank">Stanford GQA</a></li>
+    <li><a href="https://github.com/zygmuntz/goodbooks-10k" target="_blank">Goodreads Reviews</a></li>
+    <li><a href="https://sites.google.com/view/smm4h/datasets" target="_blank">SMM4H Datasets</a></li>
+    <li><a href="https://data.worldbank.org/" target="_blank">World Bank Open Data</a></li>
+    <li><a href="https://github.com/annonymity/open-corpora" target="_blank">Open Corpora</a></li>
+    <li><a href="https://github.com/UFAL-DSG/cs_restaurant_dataset" target="_blank">UFAL DSG Restaurant Dataset</a></li>
+    </ul>
+
+    <h2>Image Data for Computer Vision</h2>
+    <ul>
+        <li><a href="http://www.image-net.org/" target="_blank">ImageNet</a></li>
+        <li><a href="https://cocodataset.org/#home" target="_blank">COCO</a></li>
+        <li><a href="https://visualdata.io/" target="_blank">VisualData</a></li>
+        <li><a href="https://www.aicrowd.com/challenges/objectron" target="_blank">Objectron</a></li>
+    </ul>
+
+    <h2>Anomaly Detection</h2>
+    <ul>
+        <li><a href="http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html" target="_blank">KDD Cup 1999</a></li>
+        <li><a href="https://www.secrepo.com/" target="_blank">SecRepo</a></li>
+        <li><a href="https://www.cs.ucsb.edu/~koc/netsys/data.html" target="_blank">UCSB Network Data</a></li>
+    </ul>
+
+    <h2>Sentiment Analysis</h2>
+    <ul>
+        <li><a href="http://help.sentiment140.com/for-students" target="_blank">Sentiment140</a></li>
+        <li><a href="https://nlp.stanford.edu/sentiment/index.html" target="_blank">Stanford Sentiment Analysis</a></li>
+        <li><a href="https://github.com/bfelbo/DeepMoji" target="_blank">DeepMoji</a></li>
+    </ul>
+
+    <h2>Finance</h2>
+    <ul>
+        <li><a href="https://www.quandl.com/" target="_blank">Quandl</a></li>
+        <li><a href="https://www.eia.gov/data/" target="_blank">U.S. Energy Information</a></li>
+    </ul>
+
+    <h2>Health</h2>
+    <ul>
+        <li><a href="https://mimic.physionet.org/" target="_blank">MIMIC-III</a></li>
+        <li><a href="https://dataverse.harvard.edu/dataverse/gddh" target="_blank">Global Digital Disease Data</a></li>
+        <li><a href="https://www.cancerimagingarchive.net/" target="_blank">Cancer Imaging Archive</a></li>
+    </ul>
+
+    <h2>Transportation</h2>
+    <ul>
+        <li><a href="https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp?" target="_blank">TranStats</a></li>
+        <li><a href="https://data.transportation.gov/" target="_blank">U.S. Department of Transportation</a></li>
+    </ul>
+
+    <h2>Climate and Environment</h2>
+    <ul>
+        <li><a href="https://www.ncdc.noaa.gov/data-access" target="_blank">NOAA</a></li>
+        <li><a href="https://earthdata.nasa.gov/" target="_blank">NASA EarthData</a></li>
+    </ul>
+
+    <h2>Government and Social Science</h2>
+    <ul>
+        <li><a href="https://www.icpsr.umich.edu/web/pages/ICPSR/index.html" target="_blank">ICPSR</a></li>
+        <li><a href="https://www.europeansocialsurvey.org/data/" target="_blank">European Social Survey</a></li>
+    </ul>
+
+    <h2>Audio and Speech</h2>
+    <ul>
+        <li><a href="https://www.openslr.org/resources.php" target="_blank">OpenSLR</a></li>
+        <li><a href="https://commonvoice.mozilla.org/en/datasets" target="_blank">Mozilla Common Voice</a></li>
+    </ul>
+
+    <h2>Web Crawler-Specific</h2>
+    <ul>
+        <li><a href="http://lemurproject.org/clueweb12/" target="_blank">ClueWeb</a></li>
+        <li><a href="https://www.opensubtitles.org/en/search/subs" target="_blank">OpenSubtitles</a></li>
+    </ul>
+
+</body>
+</html>
+
+
+
+
+
