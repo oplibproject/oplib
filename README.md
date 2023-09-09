@@ -230,6 +230,12 @@ LightGBM GitHub
 1. [AWS Training and Certification](https://aws.amazon.com/training/)
 2. [Elasticsearch Learning Resources](https://www.elastic.co/training/)
 3. [Apache Kafka Tutorials](https://kafka.apache.org/documentation/#gettingStarted)
+4. Elasticsearch and Kibana https://www.elastic.co/guide/en/elastic-stack-overview/current/index.html
+5. Prometheus https://prometheus.io/docs/introduction/overview/
+6. Grafana https://grafana.com/docs/
+7. H20.ai https://docs.h2o.ai/
+
+
 
 ---
 
