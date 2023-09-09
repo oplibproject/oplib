@@ -1,4 +1,4 @@
-Search Ranking Algorithm
+Advanced Search Ranking Algorithm
 Overview
 This repository contains a Python script that performs search result ranking using various techniques such as RandomForest, Elasticsearch, BERT embeddings, and Named Entity Recognition (NER) from spaCy. The code is designed to be highly modular, easily scalable, and production-ready.
 
@@ -54,5 +54,7 @@ BERT embeddings for contextual understanding
 spaCy NER for identifying specific entities like names and organizations
 Celery for async tasks
 Redis for rate limiting
+Contributing
+Feel free to fork the repository and submit pull requests. For major changes, please open an issue first.
 Contributing
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first.
