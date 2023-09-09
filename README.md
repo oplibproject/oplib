@@ -2,7 +2,7 @@
 
 Open Source AI search engine that serves as a one-stop-shop for all things open source.
 
-This project aims to develop a centralized, AI-enhanced search engine optimized for indexing open-source materials—including code, educational tools, and research papers. Utilizing scalable, cloud-based architecture and advanced ranking algorithms, the platform will serve as a one-stop-shop for creators, scholars, developers, etc. The goal is to provide seamless access to fragmented open-source repositories and libraries, filling a critical gap in the current digital landscape.
+This project aims to develop a centralized, AI-enhanced search engine optimized for indexing open-source materials—including code, educational tools, and research papers. Utilizing scalable, cloud-based architecture and advanced ranking algorithms, the platform will serve as a one-stop-shop for creators, scholars, developers, etc. The goal is to provide seamless access to fragmented open-source repositories and libraries, filling a critical gap in the current open source digital landscape.
 
 
 
