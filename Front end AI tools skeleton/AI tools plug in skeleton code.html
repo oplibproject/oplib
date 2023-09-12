@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Search Engine</title>
+    <script>
+        // Function to apply AI tools to a search result
+        async function applyTool(toolName, resultId) {
+            try {
+                // Fetch the tool application from the backend
+                const response = await fetch(`http://localhost:5000/apply_tool?tool=${toolName}&resultId=${resultId}`);
+                const data = await response.json();
+                const toolResultDiv = document.getElementById(`tool-result-${resultId}`);
+                toolResultDiv.innerHTML = data.result;
+
+            } catch (error) {
+                console.error("Error applying tool: ", error);
+            }
+        }
+
+        // Function to perform search
+        async function performSearch() {
+            const query = document.getElementById('searchInput').value;
+
+            // Clear existing results
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<div class="loader">Loading...</div>';
+
+            try {
+                // Fetch search results from the backend
+                const response = await fetch(`http://localhost:5000/search?query=${query}`);
+                const data = await response.json();
+
+                // Clear loading indicator
+                resultsDiv.innerHTML = '';
+
+                // Generate results and AI tool options
+                data.forEach((result, index) => {
+                    const resultId = `result-${index}`;
+                    const resultTemplate = `
+                        <div class="result" id="${resultId}">
+                            <h2>${result.title}</h2>
+                            <p>${result.text}</p>
+                            <div id="tool-result-${resultId}"></div>
+                            <button class="tool-button" onclick="applyTool('Summarize', '${resultId}')">Summarize</button>
+                            <button class="tool-button" onclick="applyTool('Translate', '${resultId}')">Translate</button>
+                        </div>
+                    `;
+                    resultsDiv.innerHTML += resultTemplate;
+                });
+
+            } catch (error) {
+                console.error("Error fetching search results: ", error);
+                resultsDiv.innerHTML = '<div class="error">An error occurred. Please try again later.</div>';
+            }
+        }
+
+        // DOMContentLoaded Event
+        document.addEventListener('DOMContentLoaded', () => {
+            // Attach event listener to the search button
+            document.getElementById('searchButton').addEventListener('click', performSearch);
+        });
+
+    </script>
+    <style>
+        .loader {
+            font-size: 24px;
+            text-align: center;
+        }
+        .error {
+            color: red;
+            font-size: 24px;
+            text-align: center;
+        }
+        .tool-button {
+            margin-right: 10px;
+        }
+        /* More advanced CSS can be added here */
+    </style>
+</head>
+<body>
+
+    <h1>Advanced Search Engine</h1>
+
+    <div id="searchBox">
+        <input type="text" id="searchInput">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <div id="results">
+        <!-- Search results will be displayed here -->
+    </div>
+
+</body>
+</html>
